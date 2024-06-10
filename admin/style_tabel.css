@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #8b4513; 
+    color: #fff;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navlist li a.active, .navlist li a:hover {
+    color: #ffdd57;
+}
+
+#menu-icon {
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table thead tr {
+    background-color: #8b4513; /* Warna coklat khas Jawa */
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #ffffff;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #ffffff;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #8b4513;
+}
+
+.table tbody tr:hover {
+    background-color: #ffffff;
+}
+
+.table a {
+    text-decoration: none;
+    color: #8b4513; /* Warna coklat khas Jawa */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.table a:hover {
+    color: #a0522d; /* Warna coklat muda */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #8b4513;
+}
+
+img{
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}

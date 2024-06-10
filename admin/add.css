@@ -17,8 +17,7 @@ body {
     text-align: center;
   }
   
-  .title {
-    margin-top: 0;
+  .title{
     color: #333;
   }
   
@@ -38,7 +37,7 @@ body {
   .button {
     width: 100%;
     padding: 10px;
-    background-color: #3498db;
+    background-color: #8b4513;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -47,7 +46,7 @@ body {
   }
   
   .button:hover {
-    background-color: #2980b9;
+    background-color: #8b4513;
   }
   
   .forgot a {

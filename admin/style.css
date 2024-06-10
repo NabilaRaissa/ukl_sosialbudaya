@@ -1,46 +1,120 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Reset */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #495057;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+/* Body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
 header {
-    background-color: #343a40;
+    background-color: #8b4513; /* Warna coklat khas Jawa */
     color: #fff;
+    padding: 10px 0; /* Mengurangi padding */
     text-align: center;
-    padding: 1em;
+    border-bottom: 5px solid #d2b48c; /* Warna emas muda */
 }
 
+header h1 {
+    font-size: 2rem; /* Mengurangi ukuran font */
+    font-family: 'Garamond', serif; /* Font lebih tradisional */
+}
+
+/* Navigation */
 nav {
-    background-color: #495057;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #d2b48c; /* Warna emas muda */
+    padding: 10px 0;
 }
 
 nav a {
-    color: #fff;
+    color: #333;
+    padding: 10px 20px;
     text-decoration: none;
-    margin: 0 1em;
     font-weight: bold;
+    transition: background-color 0.3s;
 }
 
+nav a:hover {
+    background-color: #8b4513;
+    color: #fff;
+}
+
+/* Main Section */
 section {
-    padding: 2em;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
 footer {
-    background-color: #343a40;
+    background-color: #8b4513;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: absolute;
+    padding: 10px 0;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 20px;
 }
 
-h1, h2 {
-    color: #343a40;
+footer p {
+    margin: 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d2b48c; /* Warna emas muda */
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Button */
+button {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a0522d; /* Warna coklat muda */
 }

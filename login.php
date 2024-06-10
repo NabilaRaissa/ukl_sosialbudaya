@@ -2,8 +2,8 @@
 session_start();
 include 'koneksi.php';
 
-$username = $_POST['Username'];
-$password = $_POST['Password'];
+$username = $_POST['username'];
+$password = $_POST['password'];
 
 $login = mysqli_query($mysqli, "SELECT * FROM user WHERE username='$username' AND password='$password'");
 
@@ -19,6 +19,7 @@ if ($login) {
             $_SESSION['level'] = "admin";
             header("Location: admin/index.php");
         } else if ($data['level'] == "user") {
+            $_SESSION['id_user'] = $data['Id_user'];
             $_SESSION['username'] = $username;
             $_SESSION['level'] = "user";
             header("Location: user/index.php");
@@ -32,4 +33,4 @@ if ($login) {
     // Tampilkan pesan error jika query tidak berhasil dieksekusi
     echo "Error: " . mysqli_error($mysqli);
 }
-?>
+?> 

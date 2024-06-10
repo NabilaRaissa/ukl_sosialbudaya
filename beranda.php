@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>TiketBudaya</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="user/index.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,11 +17,10 @@
 
         <header>
             <ul class="navlist">
-                <li><a href="index.php" class="active">Beranda</a></li>
-                <li><a href="event.php">Event</a></li>
-                <li><a href="tiket.php">TiketBudaya</a></li>
-                <li><a href="riwayat.php">Riwayat Pemesanan</a></li>
-                <li><a href="../beranda.php">Logout</a></li>
+                <li><a href="beranda.php" class="active">Beranda</a></li>
+                <li><a href="index.php">Event</a></li>
+                <li><a href="index.php">TiketBudaya</a></li>
+                <li><a href="index.php">Login</a></li>
             </ul>
 
             <div class="bx bx-menu" id="menu-icon"></div>
@@ -58,7 +57,7 @@
             </section>
                 <div class="container">
                     <h2>Event Budaya Jawa</h2>
-                    <a href="../user/event.php">Selengkapnya>></a>
+                    <a href="index.php">Selengkapnya>></a>
                 </div>
                 <section class="container">
                     </div>

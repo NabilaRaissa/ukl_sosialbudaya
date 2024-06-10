@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin - TiketBudaya</title>
 </head>
 <body>
 
     <header>
-        <h1>Halaman Admin</h1>
+        <h2>Halaman Admin</h2>
     </header>
 
     <nav>
-        <a href="#">Beranda</a>
-        <a href="#">Pengaturan</a>
-        <a href="#">Keluar</a>
+            <a href="tabel_user.php">User</a></li>
+            <a href="tabel_event.php">Event</a></li>
+            <a href="tabel_transaksi.php">Transaksi</a></li>
+            <a href="../beranda.php">Log Out</a></li>
     </nav>
-
-    <section>
-        <p>Ini adalah halaman admin Anda. Anda dapat mengelola konten dan pengaturan di sini.</p>
-        
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Halaman Admin</p>
-    </footer>
+    
+    <br>
+<center><p>Ini adalah halaman admin Anda. Anda dapat mengelola konten dan pengaturan di sini.</p></center>
 
 </body>
 </html>
